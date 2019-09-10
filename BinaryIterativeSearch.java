@@ -6,6 +6,7 @@ public class BinaryIterativeSearch implements Practice03Search {
 
     @Override
     public int search(int[] arr, int target) {
+        // Binary Search with Iterative way Function
         int low = 0;
         int high = arr.length-1;
         while(low <= high){

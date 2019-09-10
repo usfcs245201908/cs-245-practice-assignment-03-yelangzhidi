@@ -9,6 +9,7 @@ public class BinaryRecursiveSearch implements Practice03Search {
         return searchRecursive(arr, target, 0, arr.length-1);
     }
     public int searchRecursive(int[] arr, int target, int low, int high){
+        // Binary Search with Recursive way Function
         if (low > high)
             return -1;
         int mid = (low + high)/2;
